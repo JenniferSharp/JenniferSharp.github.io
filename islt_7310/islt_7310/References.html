@@ -1,35 +1,87 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
                <meta charset="utf-8">
-               <title>Page Title</title>
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>References</title>
+
+    <style>
+        body{margin: 1% auto; width: 90%;}
+
+        .wrapper{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:1em;
+        grid-auto-rows:minmax(100px, auto);
+        }
+
+        .intro{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:1em;
+        grid-auto-rows:minmax(100px, auto);
+        }
+
+        .title{
+        grid-column: 1 / 2;
+        grid-row: 2;
+        }
+
+        .articles{
+        grid-column: 1 / 2;
+        grid-row: 2;
+        }
+
+        .title2{
+        grid-column: 2 / 2;
+        grid-row: 2;
+        }
+
+        .photographs{
+        grid-column: 2 / 2;
+        grid-row: 2;
+        }
+
+    </style>
+
                <link href="style.css" rel="stylesheet">
                <link href="dropnav.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <ul class="nav">
-            <nav>
-                <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#learn.html">Learn</a>
-                  <ul class= "dropdown">
-                    <li><a href="#Supplies.html">Supplies</a></li>
-                    <li><a href="#Removing.html">Removing</a></li>
-                    <li><a href="#Applying.html">Applying</a></li>
-                  </ul></li>
-                <li><a href="References.html">References</a></li>
-                <li><a href="#Contacts.html">Contacts</a></li>
-                </ul>
-            </nav>
-        <h1>References</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#learn.html">Learn</a>
+                <ul class= "dropdown">
+                <li><a href="#Supplies.html">Supplies</a></li>
+                <li><a href="#Removing.html">Removing</a></li>
+                <li><a href="#Applying.html">Applying</a></li>
+                </ul></li>
+            <li><a href="References.html">References</a></li>
+            <li><a href="#Contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
     <br/>
+
+<main class="wrapper">
+
+    <div class="intro">
     <p>Here you will find the resources consulted when creating this webpage.</p>
-    <br/>    
-    <h2>How-To Articles</h2>
-    
+    </div>
+
+    <br/>
+
     <!--References List-->
+
+    <div class="title">
+    <h2>How-To Articles</h2>
+    </div>
+
+    <div class="articles">
     <p>
         <ul>
             <li>Beuerlein, K. (n.d.). <i>How to tell if wood furniture is worth refinishing</i>. HGTV. https://www.hgtv.com/design/decorating/furniture-and-accessories/how-to-tell-if-wood-furniture-is-worth-refinishing</li>
@@ -37,7 +89,15 @@
             <li>Pattillo, S. (2021, August 24). <i>How to paint wood furniture</i>. HGTV. https://www.hgtv.com/how-to/home-improvement/how-to-paint-wood-furniture</li>
             <li>Thomann, L. (2021, August 12). <i>Learn how to refurbish brass hardware in minutes</i>. The Spruce. https://www.thespruce.com/how-to-refurbish-hardware-2878995</li>
         </ul>
+    </p>
+    </div>    
+
+    <div class="title2">
     <h2>Photographs</h2>
+    </div>
+
+    <div class="photographs">
+    <p>
         <ul>
             <li>artsyangel. (2017). [Distressed Painted Cupboard] [Photograph]. Pixabay. https://cdn.pixabay.com/photo/2017/08/23/18/56/cupboard-2673892_1280.jpg</li>
             <li>Bernardini, M. (2009). <i>Partial paint stripping of an old wood door using an aqueous solution of 
@@ -46,13 +106,16 @@
                     https://cdn.pixabay.com/photo/2021/07/24/21/51/brush-6490442_1280.jpg</li>      
         </ul>
     </p>
+    </div>
+
+    </main>
     <footer>
         <p>
             Author: Jennifer Sharp
             jls8kp@umsystem.edu
-            <small>Copyright 2022 Jennifer Sharp. All Rights Reserved
+            <small>Copyright 2022 Jennifer Sharp. All Rights Reserved</small>
         </p>
         <br/>
-    </footer>
+        </footer>
 </body>
 </html>
