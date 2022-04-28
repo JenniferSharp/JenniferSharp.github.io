@@ -9,30 +9,3 @@ h1, h2  {color: #00006E;
 main p:first-child::first-letter {
     font-weight: bold;
 }
-
-.wrapper{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:1em;
-    grid-auto-rows:minmax(100px, auto);
-}
-.name{
-    grid-column: 1;
-    grid-row: 1;
-}
-.image{
-    grid-column: 1 / 2;
-    grid-row: 2;
-}
-.about{
-    grid-column: 2 / 2;
-    grid-row: 2;
-}
-.education{
-    grid-column: 1 / 2;
-    grid-row: 3;
-}
-.resume{
-    grid-column: 2 / 2;
-    grid-row: 3;
-}
