@@ -10,7 +10,7 @@ nav {
     }
 
 nav ul li {
-    float: left;
+    float: right;
     list-style:none;
     position: relative;
 }
