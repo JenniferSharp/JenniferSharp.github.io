@@ -17,9 +17,22 @@ nav {
     }
 
 nav ul li {
-    list-style:none;
     position: relative;
-}
+    background-color: #2e6d73;
+    text-align: center;
+    color:#fbecdf;
+    float: left;
+    width: 150px;
+    }
+
+nav a{
+    text-decoration: none;
+    color:#fbecdf;
+    font-size: 18px;
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    }
+    
 /* Changes color when hovering*/
 nav a:hover {
     background-color:#8aba68;
