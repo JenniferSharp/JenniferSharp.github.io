@@ -160,5 +160,18 @@ footer{
     background-size: 100%;
     display: inline-block;
 }
-
+.pic{
+    width:20px;
+    height:20px;
+}
+.picbig{
+    position:absolute;
+    width:0px;
+    -webkit-transition:width 0.3s linear 0s;
+    transition:width 0.3s linear 0s; 
+    z-index:10;
+}
+.pic:hover + .picbig{
+    width:40px
+}
 }
