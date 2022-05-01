@@ -98,6 +98,9 @@ nav ul li a:hover:before{
 
 footer{
     text-align: center;
+    left: 0;
+    right: 0%;
+    bottom: 0;    
     border: 2px solid #00006e;
     background-image: url(footerbackgroundimage.webp);
     background-size: 100%;
