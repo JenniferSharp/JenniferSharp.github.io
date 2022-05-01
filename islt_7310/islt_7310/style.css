@@ -153,6 +153,12 @@ label #cancel{
     #check:checked ~ label #cancel{
         display: block;
     }
-
+footer{
+    text-align: center;
+    border: 2px solid #00006e;
+    background-image: url(pale-wooden-textured-blog-banner-background_53876-115921.webp);
+    background-size: 100%;
+    display: inline-block;
+}
 
 }
