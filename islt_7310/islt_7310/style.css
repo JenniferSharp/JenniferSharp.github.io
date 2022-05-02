@@ -100,7 +100,3 @@ footer{
 .envelopeimage:hover{
     transform: scale(1.5);
 }
-.pic:hover + .picbig{
-    width:40px
-}
-
