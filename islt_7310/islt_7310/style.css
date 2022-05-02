@@ -82,13 +82,13 @@ footer{
     background-size: 100%;
     display: inline-block;
 }
-.phone{
+.phoneimage{
     width: 20px;
     height: 20px;
     display: inline-block;
     transition: transform .2s;
 }
-.mail{
+.envelopeimage{
     width: 25px;
     height: 25px;
     display: inline-block;
