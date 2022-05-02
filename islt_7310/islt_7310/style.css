@@ -14,21 +14,6 @@ p {
     text-indent: 2em;
 }
 
-header{
-
-}
-body{margin: 1% auto; width: 90%;}
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-nav{
-    background: #2e6d73;
-}
-
 .wrapper{
     display:grid;
     grid-template-columns: 1fr;
@@ -91,14 +76,14 @@ nav ul li a:hover:before{
     transform-origin: left;
 }
 
-
+/*footer styling*/
 footer{
     text-align: center;
     left: 0;
     right: 0%;
     bottom: 0;    
     border: 2px solid #00006e;
-    background-image: url(footerbackgroundimage.webp);
+    background-image: url(gradienttealfooterbackground.jpeg);
     background-size: 100%;
     display: inline-block;
 }
