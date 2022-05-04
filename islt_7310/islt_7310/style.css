@@ -75,6 +75,7 @@ nav ul li a:hover:before{
 
 /*footer styling*/
 footer{
+    position:fixed;
     text-align: center;
     left: 0;
     right: 0%;
