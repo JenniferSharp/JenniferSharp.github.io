@@ -86,23 +86,20 @@ nav ul li a:hover:before{
     grid-area: footer;
     background-repeat:no-repeat;
 }
-.phoneimage{
+.pic{
     width: 20px;
     height: 20px;
     display: inline-block;
-    transition: transform .2s;
 }
-.envelopeimage{
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    transition: transform .2s;
+.picbig{
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index:10;
 }
-.phoneimage:hover{
-    transform: scale(1.5);
-}
-.envelopeimage:hover{
-    transform: scale(1.5);
+.pic:hover + .picbig{
+    width:200px;
 }
 
 /*learn pages styling*/
