@@ -84,6 +84,7 @@ nav ul li a:hover:before{
     background-size: 100%;
     display: inline-block;
     grid-area: footer;
+    background-repeat:no-repeat;
 }
 .phoneimage{
     width: 20px;
