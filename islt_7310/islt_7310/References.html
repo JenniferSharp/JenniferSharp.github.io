@@ -7,34 +7,34 @@
 
     <style>
         .intro{
-            display:flex;
-            width: 100%;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 2;
+            text-align: center;
         }
-
-        .title{
-        grid-column: 1 / 2;
-        grid-row: 2;
+        .howtotitle{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 3;
+            text-align: center;
         }
-
-        .articles{
-        grid-column: 1 / 2;
-        grid-row: 3;
+        .howtorefs{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 4;
+            text-align: center;
         }
-
-        .title2{
-        grid-column: 2 / 2;
-        grid-row: 2;
+        .photographstitle{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 5;
+            text-align: center;
         }
-
-        .photographs{
-        grid-column: 2 / 2;
-        grid-row: 3;
-        }
-
-        .flex-wrapper {
-            display: flex;
-            width: 100%;
-            flex-wrap: wrap;
+        .photographsrefs{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 6;
+            text-align: center;
         }
     </style>
 
@@ -74,35 +74,42 @@
         <p>Here you will find the resources consulted when creating this webpage.</p>
         <br/>
     </div>
-    <div class="flex-wrapper">
 
-        <!--References List-->
-        <div>
-            <h2>How-To Articles</h2>
-            
-            <span>Beuerlein, K. (n.d.). <i>How to tell if wood furniture is worth refinishing</i>. HGTV. https://www.hgtv.com/design/decorating/furniture-and-accessories/how-to-tell-if-wood-furniture-is-worth-refinishing</span>
-            <span>O’Brien, T. (2020, July 27). <i>How to remove paint from wood</i>. This Old House. https://www.thisoldhouse.com/woodworking/21018208/how-to-strip-paint-from-wood</span>
-            <span>Pattillo, S. (2021, August 24). <i>How to paint wood furniture</i>. HGTV. https://www.hgtv.com/how-to/home-improvement/how-to-paint-wood-furniture</span>
-            <span>Thomann, L. (2021, August 12). <i>Learn how to refurbish brass hardware in minutes</i>. The Spruce. https://www.thespruce.com/how-to-refurbish-hardware-2878995</span>
-        </div>    
-        
-        <div>
-        <h2>Photographs</h2>
-            <span>artsyangel. (2017). [Distressed Painted Cupboard] [Photograph]. Pixabay. https://cdn.pixabay.com/photo/2017/08/23/18/56/cupboard-2673892_1280.jpg</span>
-            <span>Bernardini, M. (2009). <i>Partial paint stripping of an old wood door using an aqueous solution of 
-                caustic soda</i> [Photograph]. Wikimedia Commons. https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Paint_stripping_with_caustic_soda.jpg/796px-Paint_stripping_with_caustic_soda.jpg?20091109171928</span>
-            <span>penphoto. (2021, July 27). [Brush Painting Wood by Hand] [Photograph]. Pixabay. 
-                    https://cdn.pixabay.com/photo/2021/07/24/21/51/brush-6490442_1280.jpg</span>      
-        </div>
-    
+    <!--References List-->
+    <div class="howtotitle">
+        <h2>How-To Articles</h2>
     </div>
 
-    <footer>
+    <div class="howtorefs">
+        <li>Beuerlein, K. (n.d.). <i>How to tell if wood furniture is worth refinishing</i>. HGTV. https://www.hgtv.com/design/decorating/furniture-and-accessories/how-to-tell-if-wood-furniture-is-worth-refinishing</li>
+        <li>O’Brien, T. (2020, July 27). <i>How to remove paint from wood</i>. This Old House. https://www.thisoldhouse.com/woodworking/21018208/how-to-strip-paint-from-wood</li>
+        <li>Pattillo, S. (2021, August 24). <i>How to paint wood furniture</i>. HGTV. https://www.hgtv.com/how-to/home-improvement/how-to-paint-wood-furniture</li>
+        <li>Thomann, L. (2021, August 12). <i>Learn how to refurbish brass hardware in minutes</i>. The Spruce. https://www.thespruce.com/how-to-refurbish-hardware-2878995</li>
+    </div>    
+    
+    <div class="photographstitle">
+        <h2>Photographs</h2>
+    </div>
+
+    <div class="photographsrefs">
+        <li>artsyangel. (2017). [Distressed Painted Cupboard] [Photograph]. Pixabay. https://cdn.pixabay.com/photo/2017/08/23/18/56/cupboard-2673892_1280.jpg</li>
+        <li>Bernardini, M. (2009). <i>Partial paint stripping of an old wood door using an aqueous solution of 
+            caustic soda</i> [Photograph]. Wikimedia Commons. https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Paint_stripping_with_caustic_soda.jpg/796px-Paint_stripping_with_caustic_soda.jpg?20091109171928</li>
+        <li>penphoto. (2021, July 27). [Brush Painting Wood by Hand] [Photograph]. Pixabay. 
+                https://cdn.pixabay.com/photo/2021/07/24/21/51/brush-6490442_1280.jpg</li>      
+    </div>
+    
+    <!--footer-->
+    <footer style="height:auto; width:100%">
         Author: Jennifer Sharp
         <br/>
-        <img src="mail.png" class="mail" alt="Mail">Email:<a href="mailto:jls8kp@umsystem.edu">Jennifer Sharp</a>
+        <img class="pic" src="mail.png" class="mail" alt="Mail">
+        <img class="picbig" src="mail.png" class="mail" alt="Mail">
+        Email: Jennifer Sharp jls8kp@umsystem.edu<a href="mailto:jls8kp@umsystem.edu">Send an email</a>
         <br/>
-        <img src="phone.png" class="phone" alt="Telephone">Phone: 111-555-1234
+        <img class="pic" src="phone.png" class="phone" alt="Telephone">
+        <img class="picbig" src="phone.png" class="phone" alt="Telephone">
+        Phone: 111-555-1234
         <br/>
         <small>&copy; Copyright 2022 Jennifer Sharp. All Rights Reserved</small>
     </footer>

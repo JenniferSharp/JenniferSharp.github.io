@@ -15,13 +15,15 @@
         }
 
         .title{
-            grid-column: 1;
-            grid-row: 1;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 2;
         }
 
         .list{
-            grid-column: 1;
-            grid-row: 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 3;
         }
 
     </style>
@@ -75,12 +77,17 @@
 
     </main>
     
-    <footer>
+    <!--footer-->
+    <footer style="height:auto; width:100%">
         Author: Jennifer Sharp
         <br/>
-        <img class="pic" src="mail.png" class="mail" alt="Mail">Email:<a href="mailto:jls8kp@umsystem.edu">Jennifer Sharp</a>
+        <img class="pic" src="mail.png" class="mail" alt="Mail">
+        <img class="picbig" src="mail.png" class="mail" alt="Mail">
+        Email: Jennifer Sharp jls8kp@umsystem.edu<a href="mailto:jls8kp@umsystem.edu">Send an email</a>
         <br/>
-        <img class="pic" src="phone.png" class="phone" alt="Telephone">Phone: 111-555-1234
+        <img class="pic" src="phone.png" class="phone" alt="Telephone">
+        <img class="picbig" src="phone.png" class="phone" alt="Telephone">
+        Phone: 111-555-1234
         <br/>
         <small>&copy; Copyright 2022 Jennifer Sharp. All Rights Reserved</small>
     </footer>
