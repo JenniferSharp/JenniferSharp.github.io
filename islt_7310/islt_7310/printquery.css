@@ -5,13 +5,17 @@
     .image {
         display: none;
     }
-    .iframe-container{
+    .resume{
         display: none;
     }
 
+    .name{
+        color: #000;
+    }
+
     body{
-        font-size: 14pt;
-        line-height: 24 pt;
+        font-size: 12pt;
+        line-height: 20 pt;
         background: none;
         color: #000;
     }
@@ -24,4 +28,5 @@
     padding:0;
     margin:0;
     color: #000;
+    background: none;
     }
