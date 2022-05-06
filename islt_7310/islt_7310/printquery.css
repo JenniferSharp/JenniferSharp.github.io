@@ -8,16 +8,25 @@
     .resume{
         display: none;
     }
+    .pic{
+        display: none;
+    }
+    .picbig{
+        display: none;
+    }
 
     .name{
         color: #000;
     }
 
     body{
-        font-size: 12pt;
-        line-height: 20 pt;
+        font-size: 10pt;
+        line-height: 18 pt;
         background: none;
         color: #000;
+    }
+    h1{
+        color:#000;
     }
 
 
