@@ -21,14 +21,14 @@
 
     body{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 12pt;
-        line-height: 20 pt;
+        font-size: 10pt;
+        line-height: 16 pt;
         background: none;
         color: #000;
     }
     h1{
         color:#000;
-        font-size: 14pt;
+        font-size: 12pt;
     }
     .wrapper, footer {
     width:100%;
