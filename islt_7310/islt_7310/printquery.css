@@ -1,0 +1,24 @@
+@media print {
+    header {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+
+    body{
+        font-size: 16pt;
+        line-height: 24 pt;
+        background: none;
+        color: #000;
+    }
+
+
+
+    .wrapper, footer {
+    width:100%;
+    border: none;
+    padding:0;
+    margin:0;
+    color: #000;
+    }
