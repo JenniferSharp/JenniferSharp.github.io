@@ -75,13 +75,15 @@ nav ul li a:hover:before{
 
 /*footer styling*/
 footer{
+    display: flex;
+    width: 100%;
     text-align: center;
     left: 0;
     right: 0%;
     bottom: 0;    
     border: 2px solid #00006e;
     background-image: url(gradienttealfooterbackground.jpeg);
-    background-size: 100%;
+    background-size: cover%;
     display: inline-block;
     grid-area: footer;
     background-repeat:no-repeat;
