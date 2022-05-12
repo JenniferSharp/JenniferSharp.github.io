@@ -15,28 +15,6 @@ p {text-indent: 2em;}
     width:100%;
 }
 
-/*index page styling*/
-.heading{
-    grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-}
-.intro{
-    grid-column: 1;
-    grid-row: 2;
-    text-align: center;
-}
-.subheading{
-    grid-column: 1;
-    grid-row: 3;
-    text-align: center;
-}
-.purpose{
-    grid-column: 1;
-    grid-row: 4;
-    text-align: center;
-}
-
 /*nav styling*/
 nav img{
     width: 150px;
